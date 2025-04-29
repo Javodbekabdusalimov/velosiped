@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 605px;
+
+  background-image: url(./0880cafc2480d60ee9fe79ad53cc6fc87b975180.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.nav__header {
+  height: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  gap: 100px;
+}
+.nav__header--element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nav__header--element a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+}
+.nav__header--element a:hover {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: orange;
+}
+.derict {
+  margin: 0 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 647px;
+  flex-wrap: wrap;
+  height: 454px;
+}
+.derict h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 123%;
+  letter-spacing: 2%;
+  color: white;
+}
+.element {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 1%;
+  color: white;
+}
+.buttoner {
+  width: 180px;
+  height: 52px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-right: 80px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 123%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.buttoner:hover {
+  background-color: white;
+  color: orange;
+}
+.buttoner:active {
+  width: 180px;
+  height: 52px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-right: 80px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 123%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.top__side {
+  height: 1400px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 170px;
+}
+.top__element {
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 123%;
+  letter-spacing: 5%;
+  text-align: center;
+  color: black;
+}
+.top__element:hover {
+  color: white;
+  cursor: pointer;
+}
+.top__child {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1280px;
+  height: 1064px;
+  margin: 0 auto;
+  border-radius: 10px;
+  gap: 15px;
+  column-gap: 15px;
+}
+.top__child--element {
+  width: 400px;
+  height: 462px;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.top__child--element img {
+  width: 400px;
+  height: 195px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.smallest h4 {
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.smallest {
+  background-color: black;
+  height: calc(462px - 195px);
+  width: 400px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 1%;
+  padding: 27px 27px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.top__child--element:hover > .smallest {
+  background-color: orange;
+  color: black;
+}
+.bottom {
+  height: 636px;
+  display: flex;
+}
+.children {
+  width: 50%;
+  height: 636px;
+  background-color: rgb(255, 85, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 52px 320px;
+  gap: 40px;
+}
+.childre {
+  background-image: url(./aeb5585285d9280df84e9509d7d05e94696511c3.png);
+  width: 50%;
+  height: 636px;
+  background-size: cover;
+}
+.children h1 {
+  color: white;
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 123%;
+  letter-spacing: 5%;
+  width: 620px;
+  height: 98px;
+  flex-wrap: wrap;
+}
+form {
+  width: 640px;
+  height: 354px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+}
+.bola {
+  width: 302px;
+  height: 46px;
+
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  outline: none;
+  border: none;
+}
+.big {
+  width: 638px;
+  border: none;
+  height: 154px;
+  outline: none;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.second {
+  width: 638px;
+  height: 52px;
+  top: 544px;
+  left: 314px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-right: 80px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: red;
+}
+.second:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.second:active {
+  width: 638px;
+  height: 52px;
+  top: 544px;
+  left: 314px;
+  gap: 10px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-right: 80px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  background-color: white;
+  border: none;
+  outline: none;
+  color: red;
+}
+.foot {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+.foot img {
+  width: 87px;
+  height: 49px;
+}
+.foot a {
+  text-decoration: none;
+  color: white;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 1%;
+}
